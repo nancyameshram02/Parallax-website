@@ -1,0 +1,94 @@
+body, html{
+    height:100%;
+    width: 100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+  
+  .img1, .img2, .img3{
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+  
+  .img1{
+    background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/47328559583697.5a27b0f3e957e.jpg');
+    min-height:100%;
+    width: 100%;
+  }
+  
+  .img2{
+    background-image:url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/5d5d5265340979.5b6e7806506ce.jpg');
+    min-height:400px;
+    width: 100%;
+  }
+  
+  .img3{
+    background-image:url('https://jolly-kalam-23776e.netlify.app/parallaxsite/img/image3.jpg');
+    width: 100%;
+    min-height:400px;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  
+  h5{
+      text-transform: none;
+      text-align: left;
+      font-size: 15px;
+      letter-spacing: 0;
+      color: #fff;
+      font-style: oblique;
+      bottom: 12px;
+      padding: 180px 0px 10px 0px;
+  }
+  .text{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .text .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .text .border.trans{
+    background-color:transparent;
+  }
+  
+  /* @media(max-width:568px){
+    .img1, .img2, .img3{
+      background-attachment:scroll;
+    }
+  } */
